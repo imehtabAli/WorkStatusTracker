@@ -73,11 +73,15 @@
     margin: .6rem;
     border-radius: .6rem;
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
   }
 
   .task b{
     text-align: left;
-    margin-bottom: .7rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
   }
 
   .task p{
